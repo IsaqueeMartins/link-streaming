@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LinkCarouselComponent } from './link-carousel.component';
+import { NgIf } from '@angular/common';
 
 describe('LinkCarouselComponent', () => {
   let component: LinkCarouselComponent;
@@ -8,9 +9,8 @@ describe('LinkCarouselComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LinkCarouselComponent]
-    })
-    .compileComponents();
+      imports: [LinkCarouselComponent, NgIf],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(LinkCarouselComponent);
     component = fixture.componentInstance;

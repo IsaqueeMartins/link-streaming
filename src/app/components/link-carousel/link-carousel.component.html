@@ -7,6 +7,11 @@
         (click)="abrirLinkExterno('https://www.netflix.com/browse')"> </div>
     <div class="card"><img ngSrc="/assets/icons8-hbo-max-250.png" width="200" height="200" alt="Hbo Max"
         (click)="abrirLinkExterno('https://www.max.com/br/pt')"> </div>
-    <div class="card"><img ngSrc="/assets/mais.png" width="100" height="100" alt="Adicionar Serviço"> </div>
+    <div class="card"><img ngSrc="/assets/mais.png" width="100" height="100" alt="Adicionar Serviço"
+        (click)="abrirCriacaoLink()"> </div>
+  </div>
+
+  <div class="overlay" *ngIf="exibirFormulario">
+    <app-new-link (fechar)="fecharCriacaoLink()"></app-new-link>
   </div>
 </section>

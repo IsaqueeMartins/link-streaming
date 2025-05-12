@@ -1,3 +1,11 @@
+app-new-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+
 .main-section {
   display: flex;
   align-items: center;
