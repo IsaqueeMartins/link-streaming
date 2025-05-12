@@ -1,9 +1,12 @@
 <section class="app-carousel">
   <div class="link-carousel">
-    <div class="card"><img ngSrc="/assets/icons8-amazon-prime-video-240.png" width="200" height="200" alt="Prime Video">
+    <div class="card"><img ngSrc="/assets/icons8-amazon-prime-video-240.png" width="200" height="200" alt="Prime Video"
+        (click)="abrirLinkExterno('https://www.primevideo.com/-/pt/')">
     </div>
-    <div class="card"><img ngSrc="/assets/Netflix_Logo_RGB.png" width="200" height="200" alt="Netflix"> </div>
-    <div class="card"><img ngSrc="/assets/icons8-hbo-max-250.png" width="200" height="200" alt="Hbo Max"> </div>
+    <div class="card"><img ngSrc="/assets/Netflix_Logo_RGB.png" width="200" height="200" alt="Netflix"
+        (click)="abrirLinkExterno('https://www.netflix.com/browse')"> </div>
+    <div class="card"><img ngSrc="/assets/icons8-hbo-max-250.png" width="200" height="200" alt="Hbo Max"
+        (click)="abrirLinkExterno('https://www.max.com/br/pt')"> </div>
     <div class="card"><img ngSrc="/assets/mais.png" width="100" height="100" alt="Adicionar Serviço"> </div>
   </div>
 </section>
