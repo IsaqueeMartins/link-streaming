@@ -1,0 +1,12 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10svh;
+  width: 100%;
+}
+
+h1 {
+  color: #8ecae6;
+  font-family: 'Poppins', sans-serif;
+}
