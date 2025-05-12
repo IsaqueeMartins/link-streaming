@@ -1,0 +1,62 @@
+.app-new-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #11619b;
+  width: 100svh;
+  height: 60svh;
+  border-radius: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+input {
+  height: 5svh;
+  width: 80svh;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding: 1rem;
+  cursor: auto;
+}
+
+button {
+  height: 5svh;
+  width: 80svh;
+  margin-top: 1rem;
+  background: #03253d;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+#btn-cancelar-link {
+  background: #a51d0b;
+}
+
+#btn-cancelar-link:hover {
+  background: #4d0d05;
+}
+
+button:hover {
+  background: #021524;
+}
