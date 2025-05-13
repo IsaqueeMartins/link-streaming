@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:link-streaming": "node dist/link-streaming/server/server.mjs"
+    "serve:ssr:link-streaming": "node dist/link-streaming/server/server.mjs",
+    "deploy": "ng build --configuration production --base-href 'https://isaqueemartins.github.io/link-streaming/' && npx angular-cli-ghpages --dir=dist/link-streaming/browser"
   },
   "private": true,
   "dependencies": {
