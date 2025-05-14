@@ -1,6 +1,13 @@
 .app-carousel {
-  background-color: #013a63;
-  border-radius: 3rem;
+  background: rgba(143, 138, 214, 0.356);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+  border: 1px solid rgba(60, 47, 182, 0.18);
+  max-height: 18svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .link-carousel {
@@ -10,13 +17,22 @@
 }
 
 .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin: 3rem;
   cursor: pointer;
   transition: transform 0.2s ease;
 }
 
 .card:hover {
-  transform: scale(1.6);
+  transform: scale(1.2);
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 15px;
 }
 
 .overlay {
