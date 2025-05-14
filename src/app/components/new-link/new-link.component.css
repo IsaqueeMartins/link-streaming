@@ -3,7 +3,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #11619b;
+  background: rgba(41, 64, 90, 0.267);
+  backdrop-filter: blur(17.5px);
+  -webkit-backdrop-filter: blur(17.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   width: 100svh;
   height: 60svh;
   border-radius: 2rem;
@@ -40,8 +44,9 @@ button {
   height: 5svh;
   width: 80svh;
   margin-top: 1rem;
-  background: #03253d;
+  background: #1a6eaa;
   border: none;
+  border-radius: 10px;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: white;
